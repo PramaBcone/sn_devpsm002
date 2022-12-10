@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5a775414797511086887562846d43ed</sys_id>
-        <sys_mod_count>81</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segregate GL account response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f5a775414797511086887562846d43ed</sys_update_name>
-        <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-20 14:40:18</sys_updated_on>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-12-08 12:17:46</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -62,10 +62,10 @@
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-19 16:43:05</sys_created_on>
         <sys_id>2c8935054797511086887562846d4376</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-19 16:47:45</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDc0893505fd9751101e29007d5aae7943":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc0893505fd9751101e29007d5aae7943.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a4a32721-dc7c-4088-a6b6-8703c4fe24c6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc0893505fd9751101e29007d5aae7943\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2022-11-27 17:22:54</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDc0893505fd9751101e29007d5aae7943":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc0893505fd9751101e29007d5aae7943.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a4a32721-dc7c-4088-a6b6-8703c4fe24c6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc0893505fd9751101e29007d5aae7943\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">008935054797511086887562846d4347</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -149,10 +149,10 @@
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-19 16:40:24</sys_created_on>
         <sys_id>55e8f5c14797511086887562846d4355</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-20 14:40:09</sys_updated_on>
+        <sys_updated_on>2022-11-27 17:22:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55e8f5c14797511086887562846d4355"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -177,9 +177,9 @@
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-19 16:40:28</sys_created_on>
         <sys_id>9ee8f5c14797511086887562846d43bf</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-20 14:40:09</sys_updated_on>
+        <sys_updated_on>2022-11-27 17:22:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   var input_json = inputs.json;
@@ -193,12 +193,10 @@
     for(var i=0; i &lt; outputs.ledger_account.length;i++){
   
     var createdOn = JSON.stringify(outputs.ledger_account[i].ERDAT);
-     var glAcc =JSON.stringify(outputs.ledger_account[i].SAKNR);
-      
+    
     outputs.ledger_account[i].ERDAT = createdOn.substring(1,5)+"-"+createdOn.substring(5,7)+"-"+createdOn.substring(7,9);
-    gs.info("gl accc=" +glAcc); 
-  //outputs.ledger_account[i].SAKNR=glAcc.replace(/^0+/, '');
-      
+   
+   
     }
   
 })(inputs, outputs);
@@ -207,18 +205,6 @@
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=55e8f5c14797511086887562846d4355"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>55e8f5c14797511086887562846d4355</id>
-        <sys_created_by>Priyanshi</sys_created_by>
-        <sys_created_on>2022-11-19 16:40:27</sys_created_on>
-        <sys_id>8ae8f5c14797511086887562846d43be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-19 16:40:27</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>delimiter</field>
         <id>55e8f5c14797511086887562846d4355</id>
@@ -242,18 +228,6 @@
         <sys_updated_on>2022-11-19 16:40:28</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_55e8f5c14797511086887562846d4355</table>
         <value>{{action.json_string}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>55e8f5c14797511086887562846d4355</id>
-        <sys_created_by>Priyanshi</sys_created_by>
-        <sys_created_on>2022-11-19 16:40:27</sys_created_on>
-        <sys_id>c2e8f5c14797511086887562846d43bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-19 16:40:27</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_55e8f5c14797511086887562846d4355^id=55e8f5c14797511086887562846d4355"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=55e8f5c14797511086887562846d4355"/>
@@ -598,7 +572,7 @@
         <sys_created_on>2022-11-19 16:40:27</sys_created_on>
         <sys_id>4ee8f5c14797511086887562846d4391</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -621,7 +595,7 @@
         <sys_created_on>2022-11-19 16:40:27</sys_created_on>
         <sys_id>8ae8f5c14797511086887562846d43ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1163,7 +1137,7 @@
         <sys_created_on>2022-11-19 16:40:24</sys_created_on>
         <sys_id>15e8f5c14797511086887562846d4353</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1186,7 +1160,7 @@
         <sys_created_on>2022-11-19 16:40:24</sys_created_on>
         <sys_id>91e8f5c14797511086887562846d434f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Json String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1211,7 +1185,7 @@
         <sys_created_on>2022-11-19 16:43:04</sys_created_on>
         <sys_id>588935054797511086887562846d4359</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1234,7 +1208,7 @@
         <sys_created_on>2022-11-19 16:43:04</sys_created_on>
         <sys_id>948935054797511086887562846d4351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1257,7 +1231,7 @@
         <sys_created_on>2022-11-19 16:40:28</sys_created_on>
         <sys_id>9ee8f5c14797511086887562846d43ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1280,7 +1254,7 @@
         <sys_created_on>2022-11-19 16:43:04</sys_created_on>
         <sys_id>dc8935054797511086887562846d434a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1354,10 +1328,10 @@
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-19 17:03:15</sys_created_on>
         <sys_id>4c2e3d894797511086887562846d435d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-19 17:03:15</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD7b1e3d89b99751105fb796f4e63e6111":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD7b1e3d89b99751105fb796f4e63e6111.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a4a32721-dc7c-4088-a6b6-8703c4fe24c6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7b1e3d89b99751105fb796f4e63e6111\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2022-11-27 17:23:01</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD7b1e3d89b99751105fb796f4e63e6111":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD7b1e3d89b99751105fb796f4e63e6111.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a4a32721-dc7c-4088-a6b6-8703c4fe24c6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7b1e3d89b99751105fb796f4e63e6111\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">7b1e3d894797511086887562846d4315</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1441,10 +1415,10 @@
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-19 17:03:11</sys_created_on>
         <sys_id>4b1ef9894797511086887562846d43c2</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-20 14:40:17</sys_updated_on>
+        <sys_updated_on>2022-11-27 17:23:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4b1ef9894797511086887562846d43c2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1469,9 +1443,9 @@
         <sys_created_by>Priyanshi</sys_created_by>
         <sys_created_on>2022-11-19 17:03:14</sys_created_on>
         <sys_id>e71e3d894797511086887562846d430d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-20 14:40:17</sys_updated_on>
+        <sys_updated_on>2022-11-27 17:23:00</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   var input_json = inputs.json;
@@ -1485,12 +1459,10 @@
     for(var i=0; i &lt; outputs.ledger_account.length;i++){
   
     var createdOn = JSON.stringify(outputs.ledger_account[i].ERDAT);
-     var glAcc =JSON.stringify(outputs.ledger_account[i].SAKNR);
-      
+    
     outputs.ledger_account[i].ERDAT = createdOn.substring(1,5)+"-"+createdOn.substring(5,7)+"-"+createdOn.substring(7,9);
-    gs.info("gl accc=" +glAcc); 
-  //outputs.ledger_account[i].SAKNR=glAcc.replace(/^0+/, '');
-      
+   
+   
     }
   
 })(inputs, outputs);
@@ -1499,18 +1471,6 @@
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4b1ef9894797511086887562846d43c2"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>4b1ef9894797511086887562846d43c2</id>
-        <sys_created_by>Priyanshi</sys_created_by>
-        <sys_created_on>2022-11-19 17:03:13</sys_created_on>
-        <sys_id>ef1e3d894797511086887562846d430c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-19 17:03:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>delimiter</field>
         <id>4b1ef9894797511086887562846d43c2</id>
@@ -1534,18 +1494,6 @@
         <sys_updated_on>2022-11-19 17:03:14</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_4b1ef9894797511086887562846d43c2</table>
         <value>{{action.json_string}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>4b1ef9894797511086887562846d43c2</id>
-        <sys_created_by>Priyanshi</sys_created_by>
-        <sys_created_on>2022-11-19 17:03:13</sys_created_on>
-        <sys_id>a31e3d894797511086887562846d430d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-19 17:03:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4b1ef9894797511086887562846d43c2^id=4b1ef9894797511086887562846d43c2"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=4b1ef9894797511086887562846d43c2"/>
@@ -1890,7 +1838,7 @@
         <sys_created_on>2022-11-19 17:03:13</sys_created_on>
         <sys_id>e71ef9894797511086887562846d43e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1913,7 +1861,7 @@
         <sys_created_on>2022-11-19 17:03:13</sys_created_on>
         <sys_id>ef1ef9894797511086887562846d43e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2455,7 +2403,7 @@
         <sys_created_on>2022-11-19 17:03:11</sys_created_on>
         <sys_id>8f1ef9894797511086887562846d43c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Delimiter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2478,7 +2426,7 @@
         <sys_created_on>2022-11-19 17:03:10</sys_created_on>
         <sys_id>f21ef9894797511086887562846d431b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Json String</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2503,7 +2451,7 @@
         <sys_created_on>2022-11-19 17:03:15</sys_created_on>
         <sys_id>3f1e3d894797511086887562846d431f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2526,7 +2474,7 @@
         <sys_created_on>2022-11-19 17:03:15</sys_created_on>
         <sys_id>402e3d894797511086887562846d4356</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Ledger Account</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2549,7 +2497,7 @@
         <sys_created_on>2022-11-19 17:03:15</sys_created_on>
         <sys_id>802e3d894797511086887562846d435a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Rows</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2572,7 +2520,7 @@
         <sys_created_on>2022-11-19 17:03:14</sys_created_on>
         <sys_id>f71e3d894797511086887562846d4319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2586,6 +2534,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>f5a775414797511086887562846d43ed</sys_id>
         <latest_snapshot>251ef9894797511086887562846d4313</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch7b-10-17-2022_11-01-2022_0949.zip</compiler_build>
+        <compiler_build>glide-sandiego-12-22-2021__patch9-11-10-2022_11-23-2022_1843.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
