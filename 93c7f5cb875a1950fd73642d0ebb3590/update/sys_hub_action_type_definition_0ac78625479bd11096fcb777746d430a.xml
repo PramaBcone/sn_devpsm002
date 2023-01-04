@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ac78625479bd11096fcb777746d430a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Segregate Currency Text Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0ac78625479bd11096fcb777746d430a</sys_update_name>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-08 12:28:57</sys_updated_on>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:54</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -90,10 +90,10 @@
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:12:23</sys_created_on>
         <sys_id>c01a0629479bd11096fcb777746d4399</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-11-29 18:44:19</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"42898c1a-ca04-4593-90cb-bd9d4bb04f02\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-12-28 18:54:39</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"620ae830-f089-4bb7-b87a-596632299baf\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">070a0629479bd11096fcb777746d432d</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0ac78625479bd11096fcb777746d430a"/>
@@ -163,10 +163,10 @@
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:09:01</sys_created_on>
         <sys_id>c3498ea5479bd11096fcb777746d4389</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2022-11-21 08:13:36</sys_updated_on>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:38</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c3498ea5479bd11096fcb777746d4389"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -177,11 +177,11 @@
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:09:04</sys_created_on>
         <sys_id>7f498ea5479bd11096fcb777746d43fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2022-11-21 07:13:41</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:38</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  //To create a required JSON object
+  //To create a required JSON object 
     var input_json = inputs.inputJSON;
     var delimeter_value = inputs.delimeter.toString().trim();
     var currencyTextArray = new sn_sap_data_int.IntegrationsUtils().parseExecuteRFC(input_json, delimeter_value);
@@ -241,6 +241,18 @@
         <sys_updated_on>2022-11-21 07:09:05</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_c3498ea5479bd11096fcb777746d4389</table>
         <value>{{action.json_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c3498ea5479bd11096fcb777746d4389</id>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-12-28 18:54:38</sys_created_on>
+        <sys_id>b79d8fe54748ed1002367562846d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c3498ea5479bd11096fcb777746d4389^id=c3498ea5479bd11096fcb777746d4389"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c3498ea5479bd11096fcb777746d4389"/>
@@ -585,7 +597,7 @@
         <sys_created_on>2022-11-21 07:13:40</sys_created_on>
         <sys_id>475aca29479bd11096fcb777746d4320</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -608,7 +620,7 @@
         <sys_created_on>2022-11-21 07:09:04</sys_created_on>
         <sys_id>ef498ea5479bd11096fcb777746d43c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1150,7 +1162,7 @@
         <sys_created_on>2022-11-21 07:09:00</sys_created_on>
         <sys_id>6249caa5479bd11096fcb777746d43ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1173,7 +1185,7 @@
         <sys_created_on>2022-11-21 07:09:01</sys_created_on>
         <sys_id>b2498ea5479bd11096fcb777746d4387</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimeter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1198,7 +1210,7 @@
         <sys_created_on>2022-11-21 07:12:19</sys_created_on>
         <sys_id>5f0a0629479bd11096fcb777746d4388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1221,7 +1233,7 @@
         <sys_created_on>2022-11-21 07:13:43</sys_created_on>
         <sys_id>7b5aca29479bd11096fcb777746d43d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1244,7 +1256,7 @@
         <sys_created_on>2022-11-21 07:12:22</sys_created_on>
         <sys_id>8c1a0629479bd11096fcb777746d4394</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1267,7 +1279,7 @@
         <sys_created_on>2022-11-21 07:12:20</sys_created_on>
         <sys_id>ef0a0629479bd11096fcb777746d438f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1282,17 +1294,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5b8a8269479bd11096fcb777746d4327","name":"plan","plan_signature":null}}</plan>
-        <snapshot>50381e6d47dbd11096fcb777746d431a</snapshot>
+        <snapshot>abad03294748ed1002367562846d4354</snapshot>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b8a8269479bd11096fcb777746d4327</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2022-11-21 08:14:30</sys_updated_on>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:58</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1369,10 +1381,10 @@
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:23</sys_created_on>
         <sys_id>ed8a4269479bd11096fcb777746d435d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-11-29 18:45:20</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"42898c1a-ca04-4593-90cb-bd9d4bb04f02\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-12-28 18:54:53</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"620ae830-f089-4bb7-b87a-596632299baf\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">e88a0269479bd11096fcb777746d43bc</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=917ace29479bd11096fcb777746d4324"/>
@@ -1442,10 +1454,10 @@
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:13</sys_created_on>
         <sys_id>4b7a0269479bd11096fcb777746d431e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2022-11-21 08:14:04</sys_updated_on>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4b7a0269479bd11096fcb777746d431e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1470,11 +1482,11 @@
         <sys_created_by>shreenag.araga@snc</sys_created_by>
         <sys_created_on>2022-11-21 07:14:17</sys_created_on>
         <sys_id>d48a0269479bd11096fcb777746d43a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2022-11-21 07:14:17</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  //To create a required JSON object
+  //To create a required JSON object 
     var input_json = inputs.inputJSON;
     var delimeter_value = inputs.delimeter.toString().trim();
     var currencyTextArray = new sn_sap_data_int.IntegrationsUtils().parseExecuteRFC(input_json, delimeter_value);
@@ -1520,6 +1532,18 @@
         <sys_updated_on>2022-11-21 07:14:18</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_4b7a0269479bd11096fcb777746d431e</table>
         <value>{{action.json_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>4b7a0269479bd11096fcb777746d431e</id>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-12-28 18:54:53</sys_created_on>
+        <sys_id>e3ad03294748ed1002367562846d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-28 18:54:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4b7a0269479bd11096fcb777746d431e^id=4b7a0269479bd11096fcb777746d431e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=4b7a0269479bd11096fcb777746d431e"/>
@@ -1864,7 +1888,7 @@
         <sys_created_on>2022-11-21 07:14:17</sys_created_on>
         <sys_id>c48a0269479bd11096fcb777746d43a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1887,7 +1911,7 @@
         <sys_created_on>2022-11-21 07:14:16</sys_created_on>
         <sys_id>f77a0269479bd11096fcb777746d43a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2429,7 +2453,7 @@
         <sys_created_on>2022-11-21 07:14:13</sys_created_on>
         <sys_id>8b7a0269479bd11096fcb777746d431c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Delimeter</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2452,7 +2476,7 @@
         <sys_created_on>2022-11-21 07:14:12</sys_created_on>
         <sys_id>c37a0269479bd11096fcb777746d4318</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>JSON String</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2477,7 +2501,7 @@
         <sys_created_on>2022-11-21 07:14:20</sys_created_on>
         <sys_id>7c8a0269479bd11096fcb777746d43c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2500,7 +2524,7 @@
         <sys_created_on>2022-11-21 07:14:21</sys_created_on>
         <sys_id>898a4269479bd11096fcb777746d431e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2523,7 +2547,7 @@
         <sys_created_on>2022-11-21 07:14:22</sys_created_on>
         <sys_id>d98a4269479bd11096fcb777746d4323</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Currency Text</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2546,7 +2570,7 @@
         <sys_created_on>2022-11-21 07:14:23</sys_created_on>
         <sys_id>e18a4269479bd11096fcb777746d4328</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Rows</sys_name>
+        <sys_name/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2560,6 +2584,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>0ac78625479bd11096fcb777746d430a</sys_id>
         <latest_snapshot>917ace29479bd11096fcb777746d4324</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch7b-10-17-2022_11-01-2022_0949.zip</compiler_build>
+        <compiler_build>glide-sandiego-12-22-2021__patch9-11-10-2022_11-23-2022_1843.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

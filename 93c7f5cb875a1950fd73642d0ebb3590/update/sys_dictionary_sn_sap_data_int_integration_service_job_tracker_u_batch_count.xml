@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Batch Count</column_label>
+        <column_label>Completed Batches</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>5000</max_length>
         <name>sn_sap_data_int_integration_service_job_tracker</name>
         <next_element/>
         <primary>false</primary>
@@ -49,14 +49,14 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2022-12-09 05:04:11</sys_created_on>
         <sys_id>e15916db876b1d10a3e3cbb4dabb3585</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Batch Count</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Completed Batches</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_dictionary_sn_sap_data_int_integration_service_job_tracker_u_batch_count</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2022-12-09 06:24:08</sys_updated_on>
+        <sys_updated_on>2023-01-03 08:35:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
