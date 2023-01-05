@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="date_of_birt_ithholding_tax" table="sn_sap_data_int_supplier_stg">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="date_of_birth_of_the_person_subject_to_withholding_tax" table="sn_sap_data_int_supplier_stg">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -22,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>date_of_birt_ithholding_tax</element>
+        <element>date_of_birth_of_the_person_subject_to_withholding_tax</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -54,7 +54,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_date_of_birt_ithholding_tax</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_date_of_birth_of_the_person_subject_to_withholding_tax</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
         <sys_updated_on>2022-12-08 12:18:25</sys_updated_on>
         <table_reference>false</table_reference>
