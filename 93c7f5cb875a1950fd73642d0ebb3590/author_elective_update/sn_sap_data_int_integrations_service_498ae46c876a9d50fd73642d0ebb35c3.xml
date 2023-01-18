@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
+    <sn_sap_data_int_integrations_service action="DELETE">
+        <active>false</active>
+        <flow/>
+        <import_set_tables/>
+        <name>test</name>
+        <order/>
+        <properties/>
+        <source/>
+        <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-11 14:54:01</sys_created_on>
+        <sys_id>498ae46c876a9d50fd73642d0ebb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_service_498ae46c876a9d50fd73642d0ebb35c3</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-11 14:54:01</sys_updated_on>
+    </sn_sap_data_int_integrations_service>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>0b7aba5fdb8c2d104d2bac44d49619ef</instance_id>
+        <instance_name>psmdev601</instance_name>
+        <name>sn_sap_data_int_integrations_service_498ae46c876a9d50fd73642d0ebb35c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
+    <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <flow/>
+        <import_set_tables/>
+        <name>test</name>
+        <order/>
+        <properties/>
+        <source/>
+        <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-11 14:54:01</sys_created_on>
+        <sys_id>498ae46c876a9d50fd73642d0ebb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_service_498ae46c876a9d50fd73642d0ebb35c3</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-11 14:54:01</sys_updated_on>
+    </sn_sap_data_int_integrations_service>
+</record_update>]]></payload>
+        <payload_hash>1811862227</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>bf7dcd40871c61108dd710683cbb3532</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-05 04:02:47</sys_created_on>
+        <sys_id>213e8dc0871c61108dd710683cbb35b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18580187fc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-05 04:02:47</sys_updated_on>
+        <type>Integration Service</type>
+        <update_guid>ed3e8dc0f11c611005896e88dd87f4b0</update_guid>
+        <update_guid_history>ed3e8dc0f11c611005896e88dd87f4b0:1811862227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">7db17feb8718211063060e94dabb3544</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2023-01-16 12:55:52</sys_created_on>
+        <sys_db_object display_value="" name="sn_sap_data_int_integrations_service">sn_sap_data_int_integrations_service</sys_db_object>
+        <sys_id>220135f9af7142f884ba0fdedbd06cd1</sys_id>
+        <sys_metadata>498ae46c876a9d50fd73642d0ebb35c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sn_sap_data_int_integrations_service_498ae46c876a9d50fd73642d0ebb35c3</sys_update_name>
+        <sys_update_version display_value="sn_sap_data_int_integrations_service_498ae46c876a9d50fd73642d0ebb35c3">213e8dc0871c61108dd710683cbb35b1</sys_update_version>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2023-01-16 12:55:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

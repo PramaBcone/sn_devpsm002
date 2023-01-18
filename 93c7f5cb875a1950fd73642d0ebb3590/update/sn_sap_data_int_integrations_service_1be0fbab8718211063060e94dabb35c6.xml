@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <flow display_value="Fetch currencies from SAP ECC">920b65ed47b25d1086887562846d4351</flow>
         <import_set_tables>sn_sap_data_int_currency_stg</import_set_tables>
-        <name>Currency</name>
-        <order>20</order>
+        <name>Currency Data New</name>
+        <order>10</order>
         <properties/>
-        <source display_value="">b59ee0a087aa9d50fd73642d0ebb35f8</source>
+        <source display_value="">3d79f16147365d1086887562846d4350</source>
         <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
         <sys_created_by>shreenag.araga</sys_created_by>
-        <sys_created_on>2022-10-13 10:13:47</sys_created_on>
-        <sys_id>997d79054726155096fcb777746d435e</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Currency</sys_name>
+        <sys_created_on>2023-01-16 12:53:00</sys_created_on>
+        <sys_id>1be0fbab8718211063060e94dabb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Currency Data New</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name>sn_sap_data_int_integrations_service_997d79054726155096fcb777746d435e</sys_update_name>
+        <sys_update_name>sn_sap_data_int_integrations_service_1be0fbab8718211063060e94dabb35c6</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-18 04:00:23</sys_updated_on>
+        <sys_updated_on>2023-01-16 12:53:00</sys_updated_on>
     </sn_sap_data_int_integrations_service>
 </record_update>

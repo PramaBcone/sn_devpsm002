@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description>To import all the payment terms from SAP ECC to Primary Data Integration application</description>
         <internal_name>fetch_payment_terms_from_sap_ecc</internal_name>
-        <label_cache>[{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__.message","label":"32➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__","label":"31 - Error Handler➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.staging_count","label":"Flow Variables➛Staging Count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0edaf35c-e5b1-425b-8b76-bbe5be601dfb"}},{"name":"flow_variable.query","label":"Flow Variables➛Query","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9aeed8d8-a52e-47b0-af3b-ec9df7b7f242"}},{"name":"flow_variable.table_name","label":"Flow Variables➛Table Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1b58767-b098-4024-ad65-9e251238cb8d"}},{"name":"flow_variable.delimeter","label":"Flow Variables➛Delimeter","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7fcaeec4-e10c-4ead-a409-5dcd02629f28"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.json_response","label":"10 - Execute RFC➛JSON Response","reference_display":"JSON Response","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8e3cb936-b334-405d-b071-7051e42fdae0"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options_string","label":"5➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options","label":"5 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__dont_treat_as_error__","label":"5 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__action_status__","label":"5 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"flow_variable.total_rows","label":"Flow Variables➛Total Rows","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"691037b4-1af1-4ee3-b88d-31067522e42f"}},{"name":"subflow.connection_name","label":"Input➛Connection Name","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4ea3f30d-0660-4230-b12c-74061ed76f29","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.bapi_name","label":"Input➛BAPI Name","reference":"sn_sap_ecc_rfc_spo_sap_rfc_list","reference_display":"SAP ECC RFC","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"47cc9504-bb64-4648-87ab-11dfb74f0e94","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPRAS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPARS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.VTEXT","label":"17➛Payment Term➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item","label":"17 - For Each➛Payment Term","reference_display":"Payment Term","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__dont_treat_as_error__","label":"6 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__action_status__","label":"6 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.error_message","label":"6 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.status","label":"6 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.table_name","label":"6 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.record","label":"6 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__dont_treat_as_error__","label":"10 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"7aa89ac0-3196-4f93-8356-fae4a1241d84"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__action_status__","label":"10 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD3fea7fec257f1110ad54a24b3961a9b4","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6f2aaaf6-610c-470a-8a49-61282f7881ba"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.err","label":"10 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.status","label":"10 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.output","label":"10 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"object","base_type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"subflow.service_record.sys_id","label":"Input➛Service Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_data_int_integration_job_tracker","column_name":"sys_id"},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__","label":"3 - Segregate payment term response Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"cfce57a6-8521-470c-8d3f-b6d342eb0db8"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__dont_treat_as_error__","label":"3 - Segregate payment term response Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"39b48ed6-ac5c-498d-841d-2bc48f3e6402"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.payment_terms","label":"3 - Segregate payment term response Response➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"687a41d8-5eda-4c8f-8e9c-d584449f0bf1","child_name":"payment_term","uiUniqueId":"da0ff91c-e39e-44d4-bb58-8303346f44ca","uiTypeLabel":"Array.Object","co_type_name":"FD9ee171b17ebe1110dbbcce4f53f0efd7","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6414bbb4-b46e-4325-bb8a-524500e6c93f","uiType":"array.object","child_type":"object","child_uiUniqueId":"9fa303b3-b886-4643-b40b-6dccf93e6072"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__.code","label":"3➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.record","label":"18 - Create or Update Record➛Payment Terms Record","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.table_name","label":"18 - Create or Update Record➛Payment Terms Table","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.status","label":"18 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.error_message","label":"18 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__action_status__","label":"18 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__dont_treat_as_error__","label":"18 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.ZTERM","label":"17➛Payment Term➛Terms of Payment","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__","label":"12 - Segregate Payment Term➛__action_status__","reference_display":"__action_status__","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD780b95cdbd431d10ccebedfccd18860c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1c1e991b-2711-4725-a469-814b56cf812f"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__dont_treat_as_error__","label":"12 - Segregate Payment Term➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c2f98201-5544-451e-8b2b-b7b7cc61f020"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.payment_terms","label":"12 - Segregate Payment Term➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"47cba41b-f767-4bb1-8a8f-ed15687d5fc7","child_name":"payment_term","uiUniqueId":"f1148bad-3c0d-4e0c-aec0-62ce0ec0e541","uiTypeLabel":"Array.Object","co_type_name":"FDb40b95cd7d431d10debb8678b0e0f30e","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"da79329d-bf72-4a5f-be48-8ff996a0a07f","uiType":"array.object","child_type":"object","child_uiUniqueId":"81e1486d-ebc9-4f05-8f23-ef4a9f8f75ee"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__.code","label":"12➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"subflow.bapi_name.sys_id","label":"Input➛Bapi Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_ecc_rfc_spo_sap_rfc_list","column_name":"sys_id"},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Record","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Table","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"subflow.connection_name.sys_id","label":"Input➛Connection Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_alias","column_name":"sys_id"},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Records","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Records","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Table","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__action_status__","label":"2 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__dont_treat_as_error__","label":"2 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ea8c679-1726-4781-83fc-9d60468ce31e.item","label":"6 - For Each➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.encoded_query","label":"9 - Generate Encoded Query➛Encoded Query","reference_display":"Encoded Query","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2d54011e-9464-4050-a5f1-3a6ee9aad7a5"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__dont_treat_as_error__","label":"9 - Generate Encoded Query➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d2ca8ad5-f0a0-48d7-9b88-a8b9dd02785e"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.status","label":"9 - Generate Encoded Query➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"Success","order":0.0},{"label":"Error","value":"Error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ac318d16-8871-45c7-a315-64763cebedf6"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.error_message","label":"9 - Generate Encoded Query➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"96e17931-653b-40f0-9375-900252949949"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__action_status__","label":"9 - Generate Encoded Query➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.row_count","label":"Flow Variables➛Row Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4decd0e2-0558-4b7e-9e2e-952efbb21df3"}},{"name":"flow_variable.row_skips","label":"Flow Variables➛Row Skips","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0932bd23-cdcc-4106-9869-6ed2cd8d2f9a"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.total_rows","label":"12 - Segregate Payment Term➛Total Rows","reference_display":"Total Rows","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"869d665e-3e78-40f9-a779-088577ea3797"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.response_json","label":"10➛Response Json","reference_display":"Response Json","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"adddaa42-d56d-4189-98e8-a1411f239a3f"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Record","label":"7 - Look Up Record➛ERP Source Configuration Record","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Table","label":"7 - Look Up Record➛ERP Source Configuration Table","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.status","label":"7 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.error_message","label":"7 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__action_status__","label":"7 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__dont_treat_as_error__","label":"7 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.property_value","label":"3 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__action_status__","label":"3 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd242bc9fb0265d50cfcd623ead99c417","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3d821aba-e5cf-406a-9c73-82e8f15f050d"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__dont_treat_as_error__","label":"3 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0f7612df-90fc-47a6-96a6-81faef6b2751"}},{"name":"subflow.service_record.integration_service.properties","label":"Input➛Service Record➛Integration service➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_sap_data_int_integrations_service","column_name":"properties"},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__action_status__","label":"2 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__dont_treat_as_error__","label":"2 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options","label":"2 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options_string","label":"2 - Generate query for IT Options➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}}]</label_cache>
+        <label_cache>[{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options_string","label":"2 - Generate query for IT Options➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options","label":"2 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__dont_treat_as_error__","label":"2 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__action_status__","label":"2 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"subflow.service_record.integration_service.properties","label":"Input➛Service Record➛Integration service➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_sap_data_int_integrations_service","column_name":"properties"},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__dont_treat_as_error__","label":"3 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0f7612df-90fc-47a6-96a6-81faef6b2751"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__action_status__","label":"3 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd242bc9fb0265d50cfcd623ead99c417","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3d821aba-e5cf-406a-9c73-82e8f15f050d"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.property_value","label":"3 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__dont_treat_as_error__","label":"7 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__action_status__","label":"7 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.error_message","label":"7 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.status","label":"7 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Table","label":"7 - Look Up Record➛ERP Source Configuration Table","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Record","label":"7 - Look Up Record➛ERP Source Configuration Record","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.response_json","label":"10➛Response Json","reference_display":"Response Json","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"adddaa42-d56d-4189-98e8-a1411f239a3f"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.total_rows","label":"12 - Segregate Payment Term➛Total Rows","reference_display":"Total Rows","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"869d665e-3e78-40f9-a779-088577ea3797"}},{"name":"flow_variable.row_skips","label":"Flow Variables➛Row Skips","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0932bd23-cdcc-4106-9869-6ed2cd8d2f9a"}},{"name":"flow_variable.row_count","label":"Flow Variables➛Row Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4decd0e2-0558-4b7e-9e2e-952efbb21df3"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__action_status__","label":"9 - Generate Encoded Query➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.error_message","label":"9 - Generate Encoded Query➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"96e17931-653b-40f0-9375-900252949949"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.status","label":"9 - Generate Encoded Query➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"Success","order":0.0},{"label":"Error","value":"Error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ac318d16-8871-45c7-a315-64763cebedf6"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__dont_treat_as_error__","label":"9 - Generate Encoded Query➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d2ca8ad5-f0a0-48d7-9b88-a8b9dd02785e"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.encoded_query","label":"9 - Generate Encoded Query➛Encoded Query","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2d54011e-9464-4050-a5f1-3a6ee9aad7a5"}},{"name":"0ea8c679-1726-4781-83fc-9d60468ce31e.item","label":"6 - For Each➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__dont_treat_as_error__","label":"2 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__action_status__","label":"2 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Table","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Records","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Records","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.connection_name.sys_id","label":"Input➛Connection Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_alias","column_name":"sys_id"},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Table","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Record","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.bapi_name.sys_id","label":"Input➛Bapi Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_ecc_rfc_spo_sap_rfc_list","column_name":"sys_id"},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__.code","label":"12➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.payment_terms","label":"12 - Segregate Payment Term➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"47cba41b-f767-4bb1-8a8f-ed15687d5fc7","child_name":"payment_term","uiUniqueId":"f1148bad-3c0d-4e0c-aec0-62ce0ec0e541","uiTypeLabel":"Array.Object","co_type_name":"FDb40b95cd7d431d10debb8678b0e0f30e","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"da79329d-bf72-4a5f-be48-8ff996a0a07f","uiType":"array.object","child_type":"object","child_uiUniqueId":"81e1486d-ebc9-4f05-8f23-ef4a9f8f75ee"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__dont_treat_as_error__","label":"12 - Segregate Payment Term➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c2f98201-5544-451e-8b2b-b7b7cc61f020"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__","label":"12 - Segregate Payment Term➛__action_status__","reference_display":"__action_status__","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD780b95cdbd431d10ccebedfccd18860c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1c1e991b-2711-4725-a469-814b56cf812f"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.ZTERM","label":"17➛Payment Term➛Terms of Payment","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__dont_treat_as_error__","label":"18 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__action_status__","label":"18 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.error_message","label":"18 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.status","label":"18 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.table_name","label":"18 - Create or Update Record➛Payment Terms Table","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.record","label":"18 - Create or Update Record➛Payment Terms Record","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__.code","label":"3➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.payment_terms","label":"3 - Segregate payment term response Response➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"687a41d8-5eda-4c8f-8e9c-d584449f0bf1","child_name":"payment_term","uiUniqueId":"da0ff91c-e39e-44d4-bb58-8303346f44ca","uiTypeLabel":"Array.Object","co_type_name":"FD9ee171b17ebe1110dbbcce4f53f0efd7","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6414bbb4-b46e-4325-bb8a-524500e6c93f","uiType":"array.object","child_type":"object","child_uiUniqueId":"9fa303b3-b886-4643-b40b-6dccf93e6072"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__dont_treat_as_error__","label":"3 - Segregate payment term response Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"39b48ed6-ac5c-498d-841d-2bc48f3e6402"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__","label":"3 - Segregate payment term response Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"cfce57a6-8521-470c-8d3f-b6d342eb0db8"}},{"name":"subflow.service_record.sys_id","label":"Input➛Service Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_data_int_integration_job_tracker","column_name":"sys_id"},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"object","base_type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.output","label":"10 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.status","label":"10 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.err","label":"10 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__action_status__","label":"10 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD3fea7fec257f1110ad54a24b3961a9b4","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6f2aaaf6-610c-470a-8a49-61282f7881ba"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__dont_treat_as_error__","label":"10 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"7aa89ac0-3196-4f93-8356-fae4a1241d84"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.record","label":"6 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.table_name","label":"6 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.status","label":"6 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.error_message","label":"6 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__action_status__","label":"6 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__dont_treat_as_error__","label":"6 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item","label":"17 - For Each➛Payment Term","reference_display":"Payment Term","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.VTEXT","label":"17➛Payment Term➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPARS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPRAS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.bapi_name","label":"Input➛BAPI Name","reference":"sn_sap_ecc_rfc_spo_sap_rfc_list","reference_display":"SAP ECC RFC","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"47cc9504-bb64-4648-87ab-11dfb74f0e94","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.connection_name","label":"Input➛Connection Name","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4ea3f30d-0660-4230-b12c-74061ed76f29","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.total_rows","label":"Flow Variables➛Total Rows","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"691037b4-1af1-4ee3-b88d-31067522e42f"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__action_status__","label":"5 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__dont_treat_as_error__","label":"5 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options","label":"5 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options_string","label":"5➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.json_response","label":"10 - Execute RFC➛JSON Response","reference_display":"JSON Response","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8e3cb936-b334-405d-b071-7051e42fdae0"}},{"name":"flow_variable.delimeter","label":"Flow Variables➛Delimeter","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7fcaeec4-e10c-4ead-a409-5dcd02629f28"}},{"name":"flow_variable.table_name","label":"Flow Variables➛Table Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1b58767-b098-4024-ad65-9e251238cb8d"}},{"name":"flow_variable.query","label":"Flow Variables➛Query","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9aeed8d8-a52e-47b0-af3b-ec9df7b7f242"}},{"name":"flow_variable.staging_count","label":"Flow Variables➛Staging Count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0edaf35c-e5b1-425b-8b76-bbe5be601dfb"}},{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__","label":"31 - Error Handler➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__.message","label":"32➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master_snapshot>619c32be87b255103844b8c4dabb35d0</master_snapshot>
         <name>Fetch payment terms from SAP ECC</name>
         <natlang/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3faca11d87fa195093264085dabb35f9</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Fetch payment terms from SAP ECC</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_3faca11d87fa195093264085dabb35f9</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:42</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:40:14</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3faca11d87fa195093264085dabb35f9"/>
@@ -399,10 +399,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-01 07:08:11</sys_created_on>
         <sys_id>080969b447e3d110cb762430a46d433e</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:50</sys_updated_on>
         <ui_id>148f77ca-2060-4906-bd46-506d10166a47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=080969b447e3d110cb762430a46d433e"/>
@@ -448,10 +448,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 04:07:24</sys_created_on>
         <sys_id>609935b987be111093264085dabb35fd</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>118</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:43</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:51</sys_updated_on>
         <ui_id>26087ec5-c1d4-4c69-af39-52219b088b73</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=609935b987be111093264085dabb35fd"/>
@@ -510,10 +510,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-07 04:23:47</sys_created_on>
         <sys_id>753d994187831d1093264085dabb35b9</sys_id>
-        <sys_mod_count>94</sys_mod_count>
+        <sys_mod_count>100</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:43</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:51</sys_updated_on>
         <ui_id>414e9c49-c669-4aca-9f72-3cc3ad46622b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=753d994187831d1093264085dabb35b9"/>
@@ -572,10 +572,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 05:52:53</sys_created_on>
         <sys_id>a7d7712587db111093264085dabb358b</sys_id>
-        <sys_mod_count>82</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:50</sys_updated_on>
         <ui_id>0ffaebb2-9306-4b09-acb9-ced3f3ef65c9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a7d7712587db111093264085dabb358b"/>
@@ -634,10 +634,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-30 11:18:24</sys_created_on>
         <sys_id>aba8d92c47679110cb762430a46d43cc</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:50</sys_updated_on>
         <ui_id>7a88ffd5-36f7-4622-a5d7-6dc034260088</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aba8d92c47679110cb762430a46d43cc"/>
@@ -696,10 +696,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-01 07:25:34</sys_created_on>
         <sys_id>aefced7847e3d110cb762430a46d4383</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:50</sys_updated_on>
         <ui_id>21cfc333-be84-452f-b269-3a04627da407</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aefced7847e3d110cb762430a46d4383"/>
@@ -710,11 +710,11 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-01 07:25:34</sys_created_on>
         <sys_id>a2fced7847e3d110cb762430a46d4385</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_867bd788872f111013ef52c73cbb358a</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD8a7bd788642f1110d63dd462b95e818d","$COCollectionField":[{"TEXT":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d":{"$COCollectionField":[{"IT_OPTIONS":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].TEXT\\\":\\\"{{flow_variable.query}}\\\"}\",\"default_value\":\"\",\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"}},"serializationFormat":"JSON"}</value>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d":{"$COCollectionField":[{"IT_OPTIONS":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].TEXT\\\":\\\"{{flow_variable.query}}\\\"}\",\"default_value\":\"\",\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"}},"serializationFormat":"JSON","complexObject":{"name$":"FD8a7bd788642f1110d63dd462b95e818d","$COCollectionField":[{"TEXT":{"$cv":{"$c":"java.lang.String","$v":""}}}]}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=aefced7847e3d110cb762430a46d4383"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=aefced7847e3d110cb762430a46d4383"/>
@@ -732,10 +732,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 05:52:57</sys_created_on>
         <sys_id>e0e7712587db111093264085dabb35de</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:51</sys_updated_on>
         <ui_id>a241bae5-3af4-4bae-8e77-b4dce60c2a78</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0e7712587db111093264085dabb35de"/>
@@ -782,10 +782,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-26 14:16:37</sys_created_on>
         <sys_id>fcd13551873e195093264085dabb3590</sys_id>
-        <sys_mod_count>122</sys_mod_count>
+        <sys_mod_count>128</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-01 08:07:42</sys_updated_on>
+        <sys_updated_on>2023-01-18 04:08:51</sys_updated_on>
         <ui_id>7faf83a2-53bf-4f0c-aa64-8ff84516a5e9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fcd13551873e195093264085dabb3590"/>
@@ -886,11 +886,11 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 07:43:55</sys_created_on>
         <sys_id>2cbdb9f98748ed10a3e3cbb4dabb35c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 07:43:55</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:32:39</sys_updated_on>
         <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>IT_OPTIONS={{21cfc333-be84-452f-b269-3a04627da407.it_options}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fcd13551873e195093264085dabb3590^sys_idNOT IN845b147087df595093264085dabb35b3,edf971e587db111093264085dabb35f8"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -944,10 +944,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:34:57</sys_created_on>
         <sys_id>0317d6f187c8ed10a3e3cbb4dabb3517</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:39</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:50</sys_updated_on>
         <ui_id>22f9b85a-3ab1-46d7-837b-a4cf76dd50c6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -992,10 +992,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 06:08:12</sys_created_on>
         <sys_id>046bbd2987db111093264085dabb3527</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:41</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:53</sys_updated_on>
         <ui_id>1d6abb64-eded-4c95-ac71-f49c354c6407</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1038,10 +1038,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 06:08:12</sys_created_on>
         <sys_id>0c6bbd2987db111093264085dabb352a</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:41</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:53</sys_updated_on>
         <ui_id>ab8edf67-2089-4dfb-93f3-6412bed03f11</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1072,10 +1072,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:34:57</sys_created_on>
         <sys_id>0f17d6f187c8ed10a3e3cbb4dabb351a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:39</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:50</sys_updated_on>
         <ui_id>34567275-f857-4e29-9a72-8e4f5984a741</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1120,10 +1120,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 03:47:28</sys_created_on>
         <sys_id>1005397587be111093264085dabb35d8</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:40</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:52</sys_updated_on>
         <ui_id>1163184d-bca1-44c8-899a-ea7ae149cf2d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1154,10 +1154,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:34:57</sys_created_on>
         <sys_id>1317d6f187c8ed10a3e3cbb4dabb3538</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:40</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:51</sys_updated_on>
         <ui_id>8135f7a5-a80f-4e78-9958-0032b2699cbb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1189,10 +1189,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 04:02:49</sys_created_on>
         <sys_id>1588317987be111093264085dabb359c</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:39</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:49</sys_updated_on>
         <ui_id>0de8aed6-d138-49e7-adf5-0f9df05f7d49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1236,10 +1236,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 10:19:16</sys_created_on>
         <sys_id>18416ebd87c8ed10a3e3cbb4dabb352f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:37</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:44</sys_updated_on>
         <ui_id>17693d7f-1ee6-4316-87a8-cf70bc896dde</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1271,10 +1271,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 03:47:28</sys_created_on>
         <sys_id>1c05397587be111093264085dabb35bf</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:38</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:48</sys_updated_on>
         <ui_id>1dfe9cde-b4d0-47a1-8045-fe7b8b532b7a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1344,10 +1344,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 06:56:22</sys_created_on>
         <sys_id>1cd275f18748ed10a3e3cbb4dabb3592</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:37</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:44</sys_updated_on>
         <ui_id>5c56cb68-855b-49a3-8d12-f5052c3650e7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1379,10 +1379,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 10:19:25</sys_created_on>
         <sys_id>2241aebd87c8ed10a3e3cbb4dabb3517</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:42</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:54</sys_updated_on>
         <ui_id>325bd81d-265a-45af-9075-bcdc4e8715d5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1426,10 +1426,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:34:55</sys_created_on>
         <sys_id>321796f187c8ed10a3e3cbb4dabb35c3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:39</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:49</sys_updated_on>
         <ui_id>798dff1c-09b9-42c2-8722-d72e49998ae8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1500,10 +1500,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-26 14:18:47</sys_created_on>
         <sys_id>3c527d51873e195093264085dabb3568</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:38</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:47</sys_updated_on>
         <ui_id>4ed9ad99-2bc2-4cf1-9057-e5410d69a118</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1573,10 +1573,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 06:08:12</sys_created_on>
         <sys_id>486bbd2987db111093264085dabb3524</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:41</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:52</sys_updated_on>
         <ui_id>7ea805c7-bcd4-4bcf-afc8-cfa40fdc6751</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1607,10 +1607,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 06:08:11</sys_created_on>
         <sys_id>735b7d2987db111093264085dabb35e8</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:38</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:48</sys_updated_on>
         <ui_id>c56e8c04-04df-4988-b3b4-64f9c7b81057</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1668,10 +1668,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 05:52:53</sys_created_on>
         <sys_id>73d7712587db111093264085dabb35c8</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:37</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:45</sys_updated_on>
         <ui_id>bd3bea8e-8f2f-4114-a829-aeebef679725</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1755,10 +1755,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 10:19:24</sys_created_on>
         <sys_id>9e41aebd87c8ed10a3e3cbb4dabb3511</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:42</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:54</sys_updated_on>
         <ui_id>b77181d5-bda2-4256-b7e6-ebaae413a871</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1818,10 +1818,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:34:57</sys_created_on>
         <sys_id>c317d6f187c8ed10a3e3cbb4dabb3513</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:39</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:49</sys_updated_on>
         <ui_id>b47cb859-9fd3-4980-aa81-f4d1dc41e343</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1879,10 +1879,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 03:47:28</sys_created_on>
         <sys_id>d405397587be111093264085dabb35d5</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:40</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:51</sys_updated_on>
         <ui_id>053ba59c-9e48-46ae-9c4d-2470fdcac0b6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1914,10 +1914,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 05:52:53</sys_created_on>
         <sys_id>e3d7712587db111093264085dabb358f</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:37</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:45</sys_updated_on>
         <ui_id>0ea8c679-1726-4781-83fc-9d60468ce31e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1961,10 +1961,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 03:47:28</sys_created_on>
         <sys_id>e405397587be111093264085dabb35f3</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:40</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:52</sys_updated_on>
         <ui_id>6d64dc14-461f-416e-98c2-bcdff23a39d3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1995,10 +1995,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-28 03:47:28</sys_created_on>
         <sys_id>ec05397587be111093264085dabb35f5</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:42</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:54</sys_updated_on>
         <ui_id>0b56316b-389f-4f9c-aa91-206a21423c6c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2044,10 +2044,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 05:52:53</sys_created_on>
         <sys_id>efd7712587db111093264085dabb35c4</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:38</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:46</sys_updated_on>
         <ui_id>8a2df4a6-40cb-4003-916f-dfc0704af05b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2092,10 +2092,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 06:02:03</sys_created_on>
         <sys_id>f9f9b1e587db111093264085dabb3533</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:38</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:47</sys_updated_on>
         <ui_id>b2095c7d-b47a-4a02-9420-17ff5f916b13</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2204,10 +2204,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:35:00</sys_created_on>
         <sys_id>fb17d6f187c8ed10a3e3cbb4dabb3580</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:42</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:53</sys_updated_on>
         <ui_id>c7926868-073c-4192-97d8-e5024322299a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2814,7 +2814,7 @@
         <sys_created_on>2022-10-26 13:57:03</sys_created_on>
         <sys_id>525d615d87fa195093264085dabb354e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection Name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2837,7 +2837,7 @@
         <sys_created_on>2022-10-26 13:57:03</sys_created_on>
         <sys_id>9e5d615d87fa195093264085dabb3548</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2862,7 +2862,7 @@
         <sys_created_on>2022-10-26 13:57:03</sys_created_on>
         <sys_id>1e5d615d87fa195093264085dabb3553</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2885,7 +2885,7 @@
         <sys_created_on>2022-10-26 13:57:03</sys_created_on>
         <sys_id>de5d615d87fa195093264085dabb3559</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2943,17 +2943,17 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"6bacf2be87b255103844b8c4dabb3583","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Fetch payment terms from SAP ECC">3faca11d87fa195093264085dabb35f9</plan_id>
-        <snapshot>b2df1d7a47cce15002367562846d43bb</snapshot>
+        <snapshot>bb3c4054872025108dd710683cbb35be</snapshot>
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6bacf2be87b255103844b8c4dabb3583</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:36</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:42</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2966,7 +2966,7 @@
         <copied_from_name/>
         <description>To import all the payment terms from SAP ECC to Primary Data Integration application</description>
         <internal_name>fetch_payment_terms_from_sap_ecc</internal_name>
-        <label_cache>[{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__.message","label":"32➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__","label":"31 - Error Handler➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.staging_count","label":"Flow Variables➛Staging Count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0edaf35c-e5b1-425b-8b76-bbe5be601dfb"}},{"name":"flow_variable.query","label":"Flow Variables➛Query","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9aeed8d8-a52e-47b0-af3b-ec9df7b7f242"}},{"name":"flow_variable.table_name","label":"Flow Variables➛Table Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1b58767-b098-4024-ad65-9e251238cb8d"}},{"name":"flow_variable.delimeter","label":"Flow Variables➛Delimeter","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7fcaeec4-e10c-4ead-a409-5dcd02629f28"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.json_response","label":"10 - Execute RFC➛JSON Response","reference_display":"JSON Response","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8e3cb936-b334-405d-b071-7051e42fdae0"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options_string","label":"5➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options","label":"5 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__dont_treat_as_error__","label":"5 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__action_status__","label":"5 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"flow_variable.total_rows","label":"Flow Variables➛Total Rows","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"691037b4-1af1-4ee3-b88d-31067522e42f"}},{"name":"subflow.connection_name","label":"Input➛Connection Name","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4ea3f30d-0660-4230-b12c-74061ed76f29","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.bapi_name","label":"Input➛BAPI Name","reference":"sn_sap_ecc_rfc_spo_sap_rfc_list","reference_display":"SAP ECC RFC","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"47cc9504-bb64-4648-87ab-11dfb74f0e94","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPRAS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPARS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.VTEXT","label":"17➛Payment Term➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item","label":"17 - For Each➛Payment Term","reference_display":"Payment Term","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__dont_treat_as_error__","label":"6 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__action_status__","label":"6 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.error_message","label":"6 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.status","label":"6 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.table_name","label":"6 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.record","label":"6 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__dont_treat_as_error__","label":"10 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"7aa89ac0-3196-4f93-8356-fae4a1241d84"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__action_status__","label":"10 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD3fea7fec257f1110ad54a24b3961a9b4","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6f2aaaf6-610c-470a-8a49-61282f7881ba"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.err","label":"10 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.status","label":"10 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.output","label":"10 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"object","base_type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"subflow.service_record.sys_id","label":"Input➛Service Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_data_int_integration_job_tracker","column_name":"sys_id"},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__","label":"3 - Segregate payment term response Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"cfce57a6-8521-470c-8d3f-b6d342eb0db8"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__dont_treat_as_error__","label":"3 - Segregate payment term response Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"39b48ed6-ac5c-498d-841d-2bc48f3e6402"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.payment_terms","label":"3 - Segregate payment term response Response➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"687a41d8-5eda-4c8f-8e9c-d584449f0bf1","child_name":"payment_term","uiUniqueId":"da0ff91c-e39e-44d4-bb58-8303346f44ca","uiTypeLabel":"Array.Object","co_type_name":"FD9ee171b17ebe1110dbbcce4f53f0efd7","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6414bbb4-b46e-4325-bb8a-524500e6c93f","uiType":"array.object","child_type":"object","child_uiUniqueId":"9fa303b3-b886-4643-b40b-6dccf93e6072"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__.code","label":"3➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.record","label":"18 - Create or Update Record➛Payment Terms Record","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.table_name","label":"18 - Create or Update Record➛Payment Terms Table","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.status","label":"18 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.error_message","label":"18 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__action_status__","label":"18 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__dont_treat_as_error__","label":"18 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.ZTERM","label":"17➛Payment Term➛Terms of Payment","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__","label":"12 - Segregate Payment Term➛__action_status__","reference_display":"__action_status__","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD780b95cdbd431d10ccebedfccd18860c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1c1e991b-2711-4725-a469-814b56cf812f"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__dont_treat_as_error__","label":"12 - Segregate Payment Term➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c2f98201-5544-451e-8b2b-b7b7cc61f020"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.payment_terms","label":"12 - Segregate Payment Term➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"47cba41b-f767-4bb1-8a8f-ed15687d5fc7","child_name":"payment_term","uiUniqueId":"f1148bad-3c0d-4e0c-aec0-62ce0ec0e541","uiTypeLabel":"Array.Object","co_type_name":"FDb40b95cd7d431d10debb8678b0e0f30e","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"da79329d-bf72-4a5f-be48-8ff996a0a07f","uiType":"array.object","child_type":"object","child_uiUniqueId":"81e1486d-ebc9-4f05-8f23-ef4a9f8f75ee"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__.code","label":"12➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"subflow.bapi_name.sys_id","label":"Input➛Bapi Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_ecc_rfc_spo_sap_rfc_list","column_name":"sys_id"},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Record","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Table","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"subflow.connection_name.sys_id","label":"Input➛Connection Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_alias","column_name":"sys_id"},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Records","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Records","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Table","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__action_status__","label":"2 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__dont_treat_as_error__","label":"2 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ea8c679-1726-4781-83fc-9d60468ce31e.item","label":"6 - For Each➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.encoded_query","label":"9 - Generate Encoded Query➛Encoded Query","reference_display":"Encoded Query","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2d54011e-9464-4050-a5f1-3a6ee9aad7a5"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__dont_treat_as_error__","label":"9 - Generate Encoded Query➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d2ca8ad5-f0a0-48d7-9b88-a8b9dd02785e"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.status","label":"9 - Generate Encoded Query➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"Success","order":0.0},{"label":"Error","value":"Error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ac318d16-8871-45c7-a315-64763cebedf6"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.error_message","label":"9 - Generate Encoded Query➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"96e17931-653b-40f0-9375-900252949949"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__action_status__","label":"9 - Generate Encoded Query➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.row_count","label":"Flow Variables➛Row Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4decd0e2-0558-4b7e-9e2e-952efbb21df3"}},{"name":"flow_variable.row_skips","label":"Flow Variables➛Row Skips","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0932bd23-cdcc-4106-9869-6ed2cd8d2f9a"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.total_rows","label":"12 - Segregate Payment Term➛Total Rows","reference_display":"Total Rows","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"869d665e-3e78-40f9-a779-088577ea3797"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.response_json","label":"10➛Response Json","reference_display":"Response Json","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"adddaa42-d56d-4189-98e8-a1411f239a3f"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Record","label":"7 - Look Up Record➛ERP Source Configuration Record","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Table","label":"7 - Look Up Record➛ERP Source Configuration Table","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.status","label":"7 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.error_message","label":"7 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__action_status__","label":"7 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__dont_treat_as_error__","label":"7 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.property_value","label":"3 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__action_status__","label":"3 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd242bc9fb0265d50cfcd623ead99c417","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3d821aba-e5cf-406a-9c73-82e8f15f050d"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__dont_treat_as_error__","label":"3 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0f7612df-90fc-47a6-96a6-81faef6b2751"}},{"name":"subflow.service_record.integration_service.properties","label":"Input➛Service Record➛Integration service➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_sap_data_int_integrations_service","column_name":"properties"},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__action_status__","label":"2 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__dont_treat_as_error__","label":"2 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options","label":"2 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options_string","label":"2 - Generate query for IT Options➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}}]</label_cache>
+        <label_cache>[{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options_string","label":"2 - Generate query for IT Options➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.it_options","label":"2 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__dont_treat_as_error__","label":"2 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"68c0b2c8-cc5e-49c2-bcff-b7a6de8dd6f6.__action_status__","label":"2 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"subflow.service_record.integration_service.properties","label":"Input➛Service Record➛Integration service➛Properties","reference":"","reference_display":"Properties","type":"simple_name_values","base_type":"simple_name_values","parent_table_name":"sn_sap_data_int_integrations_service","column_name":"properties"},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__dont_treat_as_error__","label":"3 - Get Source Property Value➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0f7612df-90fc-47a6-96a6-81faef6b2751"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.__action_status__","label":"3 - Get Source Property Value➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd242bc9fb0265d50cfcd623ead99c417","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"3d821aba-e5cf-406a-9c73-82e8f15f050d"}},{"name":"148f77ca-2060-4906-bd46-506d10166a47.property_value","label":"3 - Get Source Property Value➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a8ad679b-811d-4b38-b365-1fad764e2749"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__dont_treat_as_error__","label":"7 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.__action_status__","label":"7 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.error_message","label":"7 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.status","label":"7 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Table","label":"7 - Look Up Record➛ERP Source Configuration Table","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a88ffd5-36f7-4622-a5d7-6dc034260088.Record","label":"7 - Look Up Record➛ERP Source Configuration Record","reference":"sn_fcms_intg_source","reference_display":"ERP Source Configuration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.response_json","label":"10➛Response Json","reference_display":"Response Json","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"adddaa42-d56d-4189-98e8-a1411f239a3f"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.total_rows","label":"12 - Segregate Payment Term➛Total Rows","reference_display":"Total Rows","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"869d665e-3e78-40f9-a779-088577ea3797"}},{"name":"flow_variable.row_skips","label":"Flow Variables➛Row Skips","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0932bd23-cdcc-4106-9869-6ed2cd8d2f9a"}},{"name":"flow_variable.row_count","label":"Flow Variables➛Row Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4decd0e2-0558-4b7e-9e2e-952efbb21df3"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__action_status__","label":"9 - Generate Encoded Query➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.error_message","label":"9 - Generate Encoded Query➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"96e17931-653b-40f0-9375-900252949949"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.status","label":"9 - Generate Encoded Query➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"Success","order":0.0},{"label":"Error","value":"Error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ac318d16-8871-45c7-a315-64763cebedf6"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.__dont_treat_as_error__","label":"9 - Generate Encoded Query➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d2ca8ad5-f0a0-48d7-9b88-a8b9dd02785e"}},{"name":"a241bae5-3af4-4bae-8e77-b4dce60c2a78.encoded_query","label":"9 - Generate Encoded Query➛Encoded Query","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2d54011e-9464-4050-a5f1-3a6ee9aad7a5"}},{"name":"0ea8c679-1726-4781-83fc-9d60468ce31e.item","label":"6 - For Each➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__dont_treat_as_error__","label":"2 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.__action_status__","label":"2 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Table","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0ffaebb2-9306-4b09-acb9-ced3f3ef65c9.Records","label":"2 - Look Up Records➛Connection \u0026 Credential Aliases Records","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.connection_name.sys_id","label":"Input➛Connection Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_alias","column_name":"sys_id"},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Table","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Table","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01d2e02d-e73c-4365-9249-f0b65ac37d4f.Record","label":"1 - Look Up Record➛Connection \u0026 Credential Aliases Record","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.bapi_name.sys_id","label":"Input➛Bapi Name➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_ecc_rfc_spo_sap_rfc_list","column_name":"sys_id"},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__.code","label":"12➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.payment_terms","label":"12 - Segregate Payment Term➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"47cba41b-f767-4bb1-8a8f-ed15687d5fc7","child_name":"payment_term","uiUniqueId":"f1148bad-3c0d-4e0c-aec0-62ce0ec0e541","uiTypeLabel":"Array.Object","co_type_name":"FDb40b95cd7d431d10debb8678b0e0f30e","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"da79329d-bf72-4a5f-be48-8ff996a0a07f","uiType":"array.object","child_type":"object","child_uiUniqueId":"81e1486d-ebc9-4f05-8f23-ef4a9f8f75ee"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__dont_treat_as_error__","label":"12 - Segregate Payment Term➛__dont_treat_as_error__","reference_display":"__dont_treat_as_error__","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"c2f98201-5544-451e-8b2b-b7b7cc61f020"}},{"name":"414e9c49-c669-4aca-9f72-3cc3ad46622b.__action_status__","label":"12 - Segregate Payment Term➛__action_status__","reference_display":"__action_status__","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD780b95cdbd431d10ccebedfccd18860c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"1c1e991b-2711-4725-a469-814b56cf812f"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.ZTERM","label":"17➛Payment Term➛Terms of Payment","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__dont_treat_as_error__","label":"18 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.__action_status__","label":"18 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.error_message","label":"18 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.status","label":"18 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.table_name","label":"18 - Create or Update Record➛Payment Terms Table","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26087ec5-c1d4-4c69-af39-52219b088b73.record","label":"18 - Create or Update Record➛Payment Terms Record","reference":"sn_sap_data_int_pay_term_stg","reference_display":"Payment Terms","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__.code","label":"3➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.payment_terms","label":"3 - Segregate payment term response Response➛Payment Terms","reference_display":"Payment Terms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"687a41d8-5eda-4c8f-8e9c-d584449f0bf1","child_name":"payment_term","uiUniqueId":"da0ff91c-e39e-44d4-bb58-8303346f44ca","uiTypeLabel":"Array.Object","co_type_name":"FD9ee171b17ebe1110dbbcce4f53f0efd7","child_label":"Payment Term","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6414bbb4-b46e-4325-bb8a-524500e6c93f","uiType":"array.object","child_type":"object","child_uiUniqueId":"9fa303b3-b886-4643-b40b-6dccf93e6072"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__dont_treat_as_error__","label":"3 - Segregate payment term response Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"39b48ed6-ac5c-498d-841d-2bc48f3e6402"}},{"name":"cd914bef-2e81-4bdd-b46e-0fef81e06781.__action_status__","label":"3 - Segregate payment term response Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"cfce57a6-8521-470c-8d3f-b6d342eb0db8"}},{"name":"subflow.service_record.sys_id","label":"Input➛Service Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sap_data_int_integration_job_tracker","column_name":"sys_id"},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"object","base_type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a820660c-57f3-43a3-bdde-890b3f182f3f.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.output","label":"10 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.status","label":"10 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.err","label":"10 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__action_status__","label":"10 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD3fea7fec257f1110ad54a24b3961a9b4","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6f2aaaf6-610c-470a-8a49-61282f7881ba"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.__dont_treat_as_error__","label":"10 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"7aa89ac0-3196-4f93-8356-fae4a1241d84"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.record","label":"6 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.table_name","label":"6 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.status","label":"6 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.error_message","label":"6 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__action_status__","label":"6 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f02015a9-41b1-494b-bc63-6b765acdca34.__dont_treat_as_error__","label":"6 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item","label":"17 - For Each➛Payment Term","reference_display":"Payment Term","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.VTEXT","label":"17➛Payment Term➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPARS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0de8aed6-d138-49e7-adf5-0f9df05f7d49.item.SPRAS","label":"17➛Payment Term➛Language Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.bapi_name","label":"Input➛BAPI Name","reference":"sn_sap_ecc_rfc_spo_sap_rfc_list","reference_display":"SAP ECC RFC","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"47cc9504-bb64-4648-87ab-11dfb74f0e94","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.connection_name","label":"Input➛Connection Name","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4ea3f30d-0660-4230-b12c-74061ed76f29","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.total_rows","label":"Flow Variables➛Total Rows","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"691037b4-1af1-4ee3-b88d-31067522e42f"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__action_status__","label":"5 - Generate query for IT Options➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"42898c1a-ca04-4593-90cb-bd9d4bb04f02"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.__dont_treat_as_error__","label":"5 - Generate query for IT Options➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"715a2cda-9773-498d-b849-b9cfe50df550"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options","label":"5 - Generate query for IT Options➛IT Options","reference_display":"IT Options","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD927bd7883a2f111009c74ee7ca386c98","child_label":"IT OPTIONS","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"630a182b-3501-44a2-b6da-d4676334ed40","uiType":"array.object","child_type":"object","child_name":"IT_OPTIONS","child_uiUniqueId":"970571d2-48b3-4487-999b-fdf2d581f443","uiUniqueId":"c2308885-e40a-4cf3-ba8a-3a0aa369cefc"}},{"name":"21cfc333-be84-452f-b269-3a04627da407.it_options_string","label":"5➛IT Options String","reference_display":"IT Options String","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ec142064-5ce3-4530-8368-3a5c31d0aa88"}},{"name":"7faf83a2-53bf-4f0c-aa64-8ff84516a5e9.json_response","label":"10 - Execute RFC➛JSON Response","reference_display":"JSON Response","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8e3cb936-b334-405d-b071-7051e42fdae0"}},{"name":"flow_variable.delimeter","label":"Flow Variables➛Delimeter","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7fcaeec4-e10c-4ead-a409-5dcd02629f28"}},{"name":"flow_variable.table_name","label":"Flow Variables➛Table Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1b58767-b098-4024-ad65-9e251238cb8d"}},{"name":"flow_variable.query","label":"Flow Variables➛Query","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9aeed8d8-a52e-47b0-af3b-ec9df7b7f242"}},{"name":"flow_variable.staging_count","label":"Flow Variables➛Staging Count","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0edaf35c-e5b1-425b-8b76-bbe5be601dfb"}},{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__","label":"31 - Error Handler➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b77181d5-bda2-4256-b7e6-ebaae413a871.__status__.message","label":"32➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master>true</master>
         <name>Fetch payment terms from SAP ECC</name>
         <natlang/>
@@ -2983,7 +2983,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>619c32be87b255103844b8c4dabb35d0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2991,7 +2991,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:18</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:13</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=619c32be87b255103844b8c4dabb35d0"/>
@@ -3354,10 +3354,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:22</sys_created_on>
         <sys_id>01acb2be87b255103844b8c4dabb3515</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:15</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:07</sys_updated_on>
         <ui_id>26087ec5-c1d4-4c69-af39-52219b088b73</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=01acb2be87b255103844b8c4dabb3515"/>
@@ -3416,10 +3416,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-30 11:19:58</sys_created_on>
         <sys_id>1a09556c47679110cb762430a46d43ad</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>7a88ffd5-36f7-4622-a5d7-6dc034260088</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a09556c47679110cb762430a46d43ad"/>
@@ -3478,10 +3478,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 07:45:43</sys_created_on>
         <sys_id>471e353d8748ed10a3e3cbb4dabb35b5</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>21cfc333-be84-452f-b269-3a04627da407</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=471e353d8748ed10a3e3cbb4dabb35b5"/>
@@ -3514,10 +3514,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:18</sys_created_on>
         <sys_id>4cac72be87b255103844b8c4dabb35fe</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>7faf83a2-53bf-4f0c-aa64-8ff84516a5e9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4cac72be87b255103844b8c4dabb35fe"/>
@@ -3618,11 +3618,11 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 07:45:44</sys_created_on>
         <sys_id>0b1e353d8748ed10a3e3cbb4dabb35c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 07:45:44</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:33:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025</table>
-        <value>IT_OPTIONS={{21cfc333-be84-452f-b269-3a04627da407.it_options}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4cac72be87b255103844b8c4dabb35fe^sys_idNOT INd6b3dcf98757511093264085dabb3552,deb3dcf98757511093264085dabb3552"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -3666,10 +3666,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-07 07:25:08</sys_created_on>
         <sys_id>5ab6ca0987071d1093264085dabb35bb</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:14</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>414e9c49-c669-4aca-9f72-3cc3ad46622b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5ab6ca0987071d1093264085dabb35bb"/>
@@ -3728,10 +3728,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:47</sys_created_on>
         <sys_id>7db3dcf98757511093264085dabb3542</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:03</sys_updated_on>
         <ui_id>0ffaebb2-9306-4b09-acb9-ced3f3ef65c9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7db3dcf98757511093264085dabb3542"/>
@@ -3790,10 +3790,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:49</sys_created_on>
         <sys_id>d2b3dcf98757511093264085dabb354e</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>a241bae5-3af4-4bae-8e77-b4dce60c2a78</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d2b3dcf98757511093264085dabb354e"/>
@@ -3840,10 +3840,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 07:45:42</sys_created_on>
         <sys_id>fe1e353d8748ed10a3e3cbb4dabb35ae</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:03</sys_updated_on>
         <ui_id>148f77ca-2060-4906-bd46-506d10166a47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fe1e353d8748ed10a3e3cbb4dabb35ae"/>
@@ -3899,10 +3899,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:13</sys_created_on>
         <sys_id>3e9c72be87b255103844b8c4dabb355f</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:14</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>4ed9ad99-2bc2-4cf1-9057-e5410d69a118</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3973,10 +3973,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:42:56</sys_created_on>
         <sys_id>48f81a7587c8ed10a3e3cbb4dabb3506</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:16</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:07</sys_updated_on>
         <ui_id>22f9b85a-3ab1-46d7-837b-a4cf76dd50c6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4020,10 +4020,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:14</sys_created_on>
         <sys_id>4b9c72be87b255103844b8c4dabb35a0</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:17</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:09</sys_updated_on>
         <ui_id>6d64dc14-461f-416e-98c2-bcdff23a39d3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4054,10 +4054,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 10:37:35</sys_created_on>
         <sys_id>6475e2f1870ced10a3e3cbb4dabb35b5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:18</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:12</sys_updated_on>
         <ui_id>b77181d5-bda2-4256-b7e6-ebaae413a871</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4118,10 +4118,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:13</sys_created_on>
         <sys_id>729c72be87b255103844b8c4dabb3567</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:15</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:07</sys_updated_on>
         <ui_id>0de8aed6-d138-49e7-adf5-0f9df05f7d49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4165,10 +4165,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:42:56</sys_created_on>
         <sys_id>84f81a7587c8ed10a3e3cbb4dabb350a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:16</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:08</sys_updated_on>
         <ui_id>34567275-f857-4e29-9a72-8e4f5984a741</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4213,10 +4213,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:14</sys_created_on>
         <sys_id>879c72be87b255103844b8c4dabb35a3</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:18</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:11</sys_updated_on>
         <ui_id>0b56316b-389f-4f9c-aa91-206a21423c6c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4261,10 +4261,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 07:45:44</sys_created_on>
         <sys_id>971e353d8748ed10a3e3cbb4dabb35c6</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:12</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:03</sys_updated_on>
         <ui_id>5c56cb68-855b-49a3-8d12-f5052c3650e7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4295,10 +4295,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 10:37:27</sys_created_on>
         <sys_id>a26562f1870ced10a3e3cbb4dabb35fa</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:12</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:02</sys_updated_on>
         <ui_id>17693d7f-1ee6-4316-87a8-cf70bc896dde</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4330,10 +4330,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:50</sys_created_on>
         <sys_id>aab3dcf98757511093264085dabb35cc</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>8a2df4a6-40cb-4003-916f-dfc0704af05b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4377,10 +4377,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:42:59</sys_created_on>
         <sys_id>b0f81a7587c8ed10a3e3cbb4dabb3595</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:17</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:11</sys_updated_on>
         <ui_id>c7926868-073c-4192-97d8-e5024322299a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4426,10 +4426,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 10:37:35</sys_created_on>
         <sys_id>b875e2f1870ced10a3e3cbb4dabb35ba</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:18</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:13</sys_updated_on>
         <ui_id>325bd81d-265a-45af-9075-bcdc4e8715d5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4472,10 +4472,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:51</sys_created_on>
         <sys_id>beb3103d8757511093264085dabb351b</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:14</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:05</sys_updated_on>
         <ui_id>c56e8c04-04df-4988-b3b4-64f9c7b81057</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4533,10 +4533,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:52</sys_created_on>
         <sys_id>c7b3103d8757511093264085dabb3569</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:17</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:10</sys_updated_on>
         <ui_id>ab8edf67-2089-4dfb-93f3-6412bed03f11</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4567,10 +4567,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:42:56</sys_created_on>
         <sys_id>c8f81a7587c8ed10a3e3cbb4dabb3502</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:15</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:07</sys_updated_on>
         <ui_id>b47cb859-9fd3-4980-aa81-f4d1dc41e343</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4628,10 +4628,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:14</sys_created_on>
         <sys_id>cb9c72be87b255103844b8c4dabb359a</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:16</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:08</sys_updated_on>
         <ui_id>053ba59c-9e48-46ae-9c4d-2470fdcac0b6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4662,10 +4662,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:14</sys_created_on>
         <sys_id>cb9c72be87b255103844b8c4dabb359d</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:17</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:08</sys_updated_on>
         <ui_id>1163184d-bca1-44c8-899a-ea7ae149cf2d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4696,10 +4696,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:42:57</sys_created_on>
         <sys_id>d8f81a7587c8ed10a3e3cbb4dabb3540</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:16</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:08</sys_updated_on>
         <ui_id>8135f7a5-a80f-4e78-9958-0032b2699cbb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4730,10 +4730,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:50</sys_created_on>
         <sys_id>e2b3dcf98757511093264085dabb35d0</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:03</sys_updated_on>
         <ui_id>bd3bea8e-8f2f-4114-a829-aeebef679725</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4818,10 +4818,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:51</sys_created_on>
         <sys_id>eab3103d8757511093264085dabb3518</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:14</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:05</sys_updated_on>
         <ui_id>b2095c7d-b47a-4a02-9420-17ff5f916b13</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4931,10 +4931,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:50</sys_created_on>
         <sys_id>eab3dcf98757511093264085dabb35c8</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:13</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:04</sys_updated_on>
         <ui_id>0ea8c679-1726-4781-83fc-9d60468ce31e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4978,10 +4978,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:52</sys_created_on>
         <sys_id>f2b3103d8757511093264085dabb3563</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:17</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:09</sys_updated_on>
         <ui_id>7ea805c7-bcd4-4bcf-afc8-cfa40fdc6751</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5013,10 +5013,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-29 09:42:55</sys_created_on>
         <sys_id>f3e8d67587c8ed10a3e3cbb4dabb35e5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:15</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:06</sys_updated_on>
         <ui_id>798dff1c-09b9-42c2-8722-d72e49998ae8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5087,10 +5087,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-10-31 11:34:13</sys_created_on>
         <sys_id>fa9c72be87b255103844b8c4dabb3563</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:14</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:06</sys_updated_on>
         <ui_id>1dfe9cde-b4d0-47a1-8045-fe7b8b532b7a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5161,10 +5161,10 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-11-21 17:13:52</sys_created_on>
         <sys_id>feb3103d8757511093264085dabb3565</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-29 14:19:17</sys_updated_on>
+        <sys_updated_on>2023-01-13 12:34:09</sys_updated_on>
         <ui_id>1d6abb64-eded-4c95-ac71-f49c354c6407</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5769,7 +5769,7 @@
         <sys_created_on>2022-10-31 11:34:10</sys_created_on>
         <sys_id>429c72be87b255103844b8c4dabb350e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection Name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5792,7 +5792,7 @@
         <sys_created_on>2022-10-31 11:34:09</sys_created_on>
         <sys_id>bd9c72be87b255103844b8c4dabb3501</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5817,7 +5817,7 @@
         <sys_created_on>2022-10-31 11:34:12</sys_created_on>
         <sys_id>2e9c72be87b255103844b8c4dabb354c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -5840,7 +5840,7 @@
         <sys_created_on>2022-10-31 11:34:11</sys_created_on>
         <sys_id>969c72be87b255103844b8c4dabb3518</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
