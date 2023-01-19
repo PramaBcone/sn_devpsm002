@@ -60,7 +60,7 @@
         <update_guid_history>280cd3c3d49b1110138a8bdd3309c525:-1718308955</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Services">249329bc8763d110a3e3cbb4dabb3563</sys_audit_delete>
+        <sys_audit_delete display_value="">249329bc8763d110a3e3cbb4dabb3563</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>krishna</sys_created_by>
         <sys_created_on>2022-12-01 06:44:28</sys_created_on>
