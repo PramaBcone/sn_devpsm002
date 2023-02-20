@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Vendors" max_length="40" name="sn_sap_data_int_supplier_stg" sizeclass="0" type="collection">
+    <element extends="sys_import_set_row" label="Vendors" max_length="40" name="sn_sap_data_int_supplier_stg" sizeclass="314" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ABC indicator" label="ABC indicator" max_length="40" name="abc_indicator" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting Clerk Abbreviation" label="Accounting Clerk Abbreviation" max_length="40" name="accounting_clerk_abbreviation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting clerk's fax number at the customer/vendor" label="Accounting clerk's fax number at the customer/vendor" max_length="40" name="accounting_clerk_s_fax_number_at_the_customer_vendor" type="string"/>
@@ -145,7 +145,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Key for the Sex of the Person Subject to Withholding Tax" label="Key for the Sex of the Person Subject to Withholding Tax" max_length="40" name="key_for_the_sex_of_the_person_subject_to_withholding_tax" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Language Key" label="Language Key" max_length="40" name="language_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Last review (external)" label="Last review (external)" max_length="40" name="last_review_external" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ledger Management Expiration Date" label="Ledger Management Expiration Date" max_length="40" name="ledger_management_expiration_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LEDGER MANAGEMENT EXPIRATION DATE" label="LEDGER MANAGEMENT EXPIRATION DATE" max_length="40" name="ledger_management_expiration_date" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Legal Nature" label="Legal Nature" max_length="40" name="legal_nature" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LFA1 Extension with New Fields - Seasonal Procurement" label="LFA1 Extension with New Fields - Seasonal Procurement" max_length="40" name="lfa1_extension_with_new_fields_seasonal_procurement" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=LFA1 Extension with New Fields - Seasonal Procurement (EK)" label="LFA1 Extension with New Fields - Seasonal Procurement (EK)" max_length="40" name="lfa1_extension_with_new_fields_seasonal_procurement_ek" type="string"/>
@@ -162,9 +162,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Mode of Transport for Foreign Trade" label="Mode of Transport for Foreign Trade" max_length="40" name="mode_of_transport_for_foreign_trade" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 1" label="Name 1" max_length="40" name="name_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 2" label="Name 2" max_length="40" name="name_2" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 2 (ED)" label="Name 2 (ED)" max_length="40" name="name_2_ed" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 3" label="Name 3" max_length="40" name="name_3" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 3 (EE)" label="Name 3 (EE)" max_length="40" name="name_3_ee" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 4" label="Name 4" max_length="40" name="name_4" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name of Person who Created the Object" label="Name of Person who Created the Object" max_length="40" name="name_of_person_who_created_the_object" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Name of Person who Created the Object (EV)" label="Name of Person who Created the Object (EV)" max_length="40" name="name_of_person_who_created_the_object_ev" type="string"/>
@@ -244,7 +242,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Staging Time in Days (KI)" label="Staging Time in Days (KI)" max_length="40" name="staging_time_in_days_ki" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Standard carrier access code" label="Standard carrier access code" max_length="40" name="standard_carrier_access_code" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="state" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status of Change Authorization (Central)" label="Status of Change Authorization (Central)" max_length="40" name="status_of_change_authorization_central" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Status of Change Authorization (Company Code Level)" label="Status of Change Authorization (Company Code Level)" max_length="40" name="status_of_change_authorization_company_code_level" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Status of Data Transfer into Subsequent Release" label="Status of Data Transfer into Subsequent Release" max_length="40" name="status_of_data_transfer_into_subsequent_release" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Street and House Number" label="Street and House Number" max_length="40" name="street_and_house_number" type="string"/>
@@ -310,5 +307,8 @@
         <index name="index">
             <element name="erp_source"/>
         </index>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status of Change Authorization (Central)" label="Status of Change Authorization (Central)" max_length="40" name="status_of_change_authorization_central" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 2 (ED)" label="Name 2 (ED)" max_length="40" name="name_2_ed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 3 (EE)" label="Name 3 (EE)" max_length="40" name="name_3_ee" type="string"/>
     </element>
 </database>
