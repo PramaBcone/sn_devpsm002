@@ -71,7 +71,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Date on Which Record Was Created" label="Date on Which Record Was Created" max_length="40" name="date_on_which_record_was_created_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Date on Which the Changes Were Confirmed" label="Date on Which the Changes Were Confirmed" max_length="40" name="date_on_which_the_changes_were_confirmed" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Date on Which the Changes Were Confirmed (GU)" label="Date on Which the Changes Were Confirmed (GU)" max_length="40" name="date_on_which_the_changes_were_confirmed_gu" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Date on which the Record Was Created" max_length="40" name="date_on_which_the_record_was_created" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date on which the Record Was Created (Vendor)" max_length="40" name="date_on_which_the_record_was_created" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Date on which the Record Was Created (EU)" label="Date on which the Record Was Created (EU)" max_length="40" name="date_on_which_the_record_was_created_eu" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Declaration Regimen for PIS/COFINS" label="Declaration Regimen for PIS/COFINS" max_length="40" name="declaration_regimen_for_pis_cofins" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Delete flag for vendor at purchasing level" label="Delete flag for vendor at purchasing level" max_length="40" name="delete_flag_for_vendor_at_purchasing_level" type="string"/>
@@ -307,8 +307,5 @@
         <index name="index">
             <element name="erp_source"/>
         </index>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status of Change Authorization (Central)" label="Status of Change Authorization (Central)" max_length="40" name="status_of_change_authorization_central" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 2 (ED)" label="Name 2 (ED)" max_length="40" name="name_2_ed" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name 3 (EE)" label="Name 3 (EE)" max_length="40" name="name_3_ee" type="string"/>
     </element>
 </database>

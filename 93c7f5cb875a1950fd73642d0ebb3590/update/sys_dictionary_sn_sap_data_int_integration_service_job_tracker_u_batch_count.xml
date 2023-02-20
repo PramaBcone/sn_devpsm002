@@ -6,10 +6,10 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Completed Batches</column_label>
+        <column_label>Completed Batches Count</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -49,14 +49,14 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2022-12-09 05:04:11</sys_created_on>
         <sys_id>dd5d8540871c61108dd710683cbb35c8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Completed Batches</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Completed Batches Count</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_dictionary_sn_sap_data_int_integration_service_job_tracker_u_batch_count</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-01-08 19:46:21</sys_updated_on>
+        <sys_updated_on>2023-02-20 11:23:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

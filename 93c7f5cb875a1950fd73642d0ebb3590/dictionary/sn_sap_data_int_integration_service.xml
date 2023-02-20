@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element max_length="40" name="sn_sap_data_int_integration_service" sizeclass="2" type="collection"/>
+</database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
     <sys_transform_script action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <map display_value="Transform Suppliers">e135c7758743dd1093264085dabb3589</map>
         <order>100</order>
         <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
@@ -45,14 +45,14 @@
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2023-01-09 07:08:57</sys_created_on>
         <sys_id>e77aded147d0a11002367562846d43c8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>onAfter</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_transform_script_e77aded147d0a11002367562846d43c8</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-17 18:18:47</sys_updated_on>
+        <sys_updated_on>2023-01-20 03:34:27</sys_updated_on>
         <when>onAfter</when>
     </sys_transform_script>
 </record_update>

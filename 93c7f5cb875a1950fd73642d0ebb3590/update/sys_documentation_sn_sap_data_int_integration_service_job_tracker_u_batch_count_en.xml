@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_batch_count" label="Batch Count" language="en" table="sn_sap_data_int_integration_service_job_tracker">
+    <sys_documentation element="u_batch_count" label="Completed Batches Count" language="en" table="sn_sap_data_int_integration_service_job_tracker">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_batch_count</element>
             <help/>
             <hint/>
-            <label>Batch Count</label>
+            <label>Completed Batches Count</label>
             <language>en</language>
             <name>sn_sap_data_int_integration_service_job_tracker</name>
-            <plural>Batch Counts</plural>
+            <plural>Completed Batches Counts</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>shreenag.araga</sys_created_by>
             <sys_created_on>2022-12-09 05:04:11</sys_created_on>
-            <sys_id>795916db876b1d10a3e3cbb4dabb358b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Batch Count</sys_name>
+            <sys_id>d15d8540871c61108dd710683cbb35c9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Completed Batches Count</sys_name>
             <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
             <sys_policy/>
             <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
             <sys_update_name>sys_documentation_sn_sap_data_int_integration_service_job_tracker_u_batch_count_en</sys_update_name>
             <sys_updated_by>shreenag.araga</sys_updated_by>
-            <sys_updated_on>2022-12-09 05:04:11</sys_updated_on>
+            <sys_updated_on>2023-02-20 11:23:46</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
