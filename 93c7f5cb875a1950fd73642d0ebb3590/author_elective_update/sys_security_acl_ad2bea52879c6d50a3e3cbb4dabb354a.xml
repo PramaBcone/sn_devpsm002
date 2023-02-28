@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on sn_sap_data_int_integration_source</description>
+        <name>sn_sap_data_int_integration_source</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mayank</sys_created_by>
+        <sys_created_on>2023-01-12 10:35:09</sys_created_on>
+        <sys_id>ad2bea52879c6d50a3e3cbb4dabb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_integration_source</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_security_acl_ad2bea52879c6d50a3e3cbb4dabb354a</sys_update_name>
+        <sys_updated_by>mayank</sys_updated_by>
+        <sys_updated_on>2023-01-12 10:35:09</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>0b7aba5fdb8c2d104d2bac44d49619ef</instance_id>
+        <instance_name>psmdev601</instance_name>
+        <name>sys_security_acl_ad2bea52879c6d50a3e3cbb4dabb354a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on sn_sap_data_int_integration_source</description><name>sn_sap_data_int_integration_source</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mayank</sys_created_by><sys_created_on>2023-01-12 10:35:09</sys_created_on><sys_id>ad2bea52879c6d50a3e3cbb4dabb354a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_sap_data_int_integration_source</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_update_name>sys_security_acl_ad2bea52879c6d50a3e3cbb4dabb354a</sys_update_name><sys_updated_by>mayank</sys_updated_by><sys_updated_on>2023-01-12 10:35:09</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-668321834</payload_hash>
+        <record_name>sn_sap_data_int_integration_source</record_name>
+        <reverted_from/>
+        <source>1f02639a8754a51063060e94dabb3545</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-01-12 14:37:07</sys_created_on>
+        <sys_id>b982e79a8754a51063060e94dabb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a669c21b0000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-01-12 14:37:07</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>792bea528c9c6d500abcbb432b8f09a4</update_guid>
+        <update_guid_history>792bea528c9c6d500abcbb432b8f09a4:-668321834,b180af1ab254a510ce0b4ccc81224b8a:-419515064,792bea528c9c6d500abcbb432b8f09a4:-668321834</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-02-28 07:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>a53c007c4ec041109c0c706622f61840</sys_id>
+        <sys_metadata>ad2bea52879c6d50a3e3cbb4dabb354a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_integration_source</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="">162b2e52879c6d50a3e3cbb4dabb357d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ad2bea52879c6d50a3e3cbb4dabb354a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ad2bea52879c6d50a3e3cbb4dabb354a">b982e79a8754a51063060e94dabb3547</sys_update_version>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

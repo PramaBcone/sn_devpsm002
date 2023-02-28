@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Populate staging table names as choices in import set tables field.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate staging table names</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var tablesToShow = g_scratchpad.tableNames;
+    var tablesDropDown = "choice.sn_sap_data_int_integration_service.import_set_tables";
+    g_form.addOption(tablesDropDown, '', getMessage('-- None --'));
+    for (var table = 0; table < tablesToShow.length; table++) {
+        g_form.addOption(tablesDropDown, tablesToShow[table].value, tablesToShow[table].label);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mayank</sys_created_by>
+        <sys_created_on>2023-01-12 10:56:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6ef2e56879c6d50a3e3cbb4dabb3575</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate staging table names</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_script_client_e6ef2e56879c6d50a3e3cbb4dabb3575</sys_update_name>
+        <sys_updated_by>mayank</sys_updated_by>
+        <sys_updated_on>2023-01-12 14:30:19</sys_updated_on>
+        <table>sn_sap_data_int_integration_service</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>0b7aba5fdb8c2d104d2bac44d49619ef</instance_id>
+        <instance_name>psmdev601</instance_name>
+        <name>sys_script_client_e6ef2e56879c6d50a3e3cbb4dabb3575</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Populate staging table names as choices in import set tables field.&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate staging table names&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    var tablesToShow = g_scratchpad.tableNames;
+    var tablesDropDown = "choice.sn_sap_data_int_integration_service.import_set_tables";
+    g_form.addOption(tablesDropDown, '', getMessage('-- None --'));
+    for (var table = 0; table &lt; tablesToShow.length; table++) {
+        g_form.addOption(tablesDropDown, tablesToShow[table].value, tablesToShow[table].label);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mayank&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-12 10:56:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e6ef2e56879c6d50a3e3cbb4dabb3575&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate staging table names&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e6ef2e56879c6d50a3e3cbb4dabb3575&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mayank&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-12 14:30:19&lt;/sys_updated_on&gt;&lt;table&gt;sn_sap_data_int_integration_service&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>14570323</payload_hash>
+        <record_name>Populate staging table names</record_name>
+        <reverted_from/>
+        <source>1f02639a8754a51063060e94dabb3545</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-01-12 14:36:59</sys_created_on>
+        <sys_id>8c82a79a8754a51063060e94dabb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a669a6c60000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-01-12 14:36:59</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9af0a3dead10ad509ec8c08e90440a9d</update_guid>
+        <update_guid_history>9af0a3dead10ad509ec8c08e90440a9d:14570323,ef706f1a8654a5106eeca790b502b0e4:577252152,36007e56709c6d503d0cbc4d4d4255d8:861519438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-02-28 07:52:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3b3d27107dc24089bb4464d405a24441</sys_id>
+        <sys_metadata>e6ef2e56879c6d50a3e3cbb4dabb3575</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate staging table names</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent display_value="">746b6e52879c6d50a3e3cbb4dabb359e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_script_client_e6ef2e56879c6d50a3e3cbb4dabb3575</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e6ef2e56879c6d50a3e3cbb4dabb3575">8c82a79a8754a51063060e94dabb35c6</sys_update_version>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:52:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

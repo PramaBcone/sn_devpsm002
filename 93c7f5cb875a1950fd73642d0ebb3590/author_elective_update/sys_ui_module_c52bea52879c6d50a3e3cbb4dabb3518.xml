@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Integration Source">b42bea52879c6d50a3e3cbb4dabb3515</application>
+        <filter/>
+        <name>Integration Sources</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>sn_sap_data_int.integration_source_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>mayank</sys_created_by>
+        <sys_created_on>2023-01-12 10:35:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c52bea52879c6d50a3e3cbb4dabb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Sources</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_ui_module_c52bea52879c6d50a3e3cbb4dabb3518</sys_update_name>
+        <sys_updated_by>mayank</sys_updated_by>
+        <sys_updated_on>2023-01-12 10:35:07</sys_updated_on>
+        <table>sn_sap_data_int_integration_source</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>0b7aba5fdb8c2d104d2bac44d49619ef</instance_id>
+        <instance_name>psmdev601</instance_name>
+        <name>sys_ui_module_c52bea52879c6d50a3e3cbb4dabb3518</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Integration Source">b42bea52879c6d50a3e3cbb4dabb3515</application><filter/><name>Integration Sources</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>sn_sap_data_int.integration_source_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>mayank</sys_created_by><sys_created_on>2023-01-12 10:35:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c52bea52879c6d50a3e3cbb4dabb3518</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Integration Sources</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_update_name>sys_ui_module_c52bea52879c6d50a3e3cbb4dabb3518</sys_update_name><sys_updated_by>mayank</sys_updated_by><sys_updated_on>2023-01-12 10:35:07</sys_updated_on><table>sn_sap_data_int_integration_source</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1450560556</payload_hash>
+        <record_name>Integration Sources</record_name>
+        <reverted_from/>
+        <source>1f02639a8754a51063060e94dabb3545</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-01-12 14:37:19</sys_created_on>
+        <sys_id>f492e79a8754a51063060e94dabb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a669f49c0000001</sys_recorded_at>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-01-12 14:37:19</sys_updated_on>
+        <type>Module</type>
+        <update_guid>552bea522a9c6d505a48143e691c4740</update_guid>
+        <update_guid_history>552bea522a9c6d505a48143e691c4740:-1450560556,9a90ef1a8a54a510eda653e8c71c2980:-1991403999,0590ef1ac154a510d90d52a6c834e151:0,552bea522a9c6d505a48143e691c4740:-1450560556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2023-02-28 07:48:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>3c494eb36749431891099a83daeab240</sys_id>
+        <sys_metadata>c52bea52879c6d50a3e3cbb4dabb3518</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Sources</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_ui_module_c52bea52879c6d50a3e3cbb4dabb3518</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_c52bea52879c6d50a3e3cbb4dabb3518">f492e79a8754a51063060e94dabb35d7</sys_update_version>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:48:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
